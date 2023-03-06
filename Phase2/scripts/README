@@ -1,5 +1,3 @@
 The only library needed for the Python script is Paho. You can install the library with
 
-```
 $pip install paho-mqtt
-```
