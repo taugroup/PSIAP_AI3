@@ -2,6 +2,8 @@
 import time
 import paho.mqtt.client as mqtt
 
+TOPIC="nist/psiap/ai3/air_quality"
+
 # Define the on_connect function to be called when the client connects to the MQTT broker
 def on_connect(client, userdata, flags, rc, properties=None):
     print("MQTT broker connected!")
@@ -30,7 +32,8 @@ client.username_pw_set("nistai3", "nistpscrai3")
 client.connect("030a29b11d714f4dae6fb60c9ab4a2c5.s1.eu.hivemq.cloud", 8883)
 
 # Subscribe to a topic
-client.subscribe("nist/psiap/ai3/air_quality", qos=1)
+
+client.subscribe(TOPIC, qos=1)
 
 # Enter the client network loop and begin listening for messages
 client.loop_forever()
