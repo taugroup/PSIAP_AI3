@@ -1,11 +1,21 @@
 # PSIAP_AI3
 This is the repository for NIST PSIAP Artificial Intelligence for IoT Information (AI3) Prize Competition.
 
-[Last updated 02/28/2023]
+[Last updated 04/20/2023]
 ```
-.
-├── LICENSE
-└── Phase2
-    └── scripts
-        └── air_quality_hivemq.py
-```
+Phase2/
+├── fire_data
+│   ├── fire_alarm_data.json.gz
+│   ├── fire_profiling.html
+│   └── README.md
+├── scripts
+│   ├── air_quality_hivemq.py
+│   ├── mosquitto_sub.sh
+│   └── README.md
+├── seismic_data
+│   ├── EQ_output.csv
+│   ├── README.md
+│   └── seismic_profiling.html
+└── weather_data
+    └── README.md
+
