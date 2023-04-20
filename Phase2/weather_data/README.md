@@ -1,1 +1,41 @@
+# Weather Data - README
 
+- **Title**: Weather Data
+- **Data Curator**: [TAU Group](https://taugroup.github.io/)
+- **Description**: This dataset contains weather data readings collected at the [Disaster City](https://teex.org/about-us/disaster-city/) from Mar 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
+- **Keywords**: Synthetitc Data, Weather, AI3 
+- **License**: Open Data Commons (ODC) licenses
+- **Version**: V1.0
+- **Date created**: April 15, 2023
+- **Data format**: JSON
+- **Data size**: 278MB (590K rows, 25 columns)
+- **Columns**:
+    - dateutc : Time at which the reading was collected 
+    - tempf : Outdoor Temperature (Farenheit)
+    - humidity : Outdoor humidity 
+    - windspeedmph : Wind Speed (average wind speed in the 16-second update period) in MPH
+    - windgustmph : Wind gust (peak wind speed in the 16-second update period) in MPH
+    - maxdailygust : Maximum daily value of wind gust
+    - winddir : Direction of Wind
+    - uv : UV Index
+    - solarradiation : Solar radiation (Watt/$m^2$)
+    - hourlyrainin :  Last 10 minutes of rainfall, multiplied by six (10 minutes x 6 = 1 hour)
+    - eventrainin : Rain event is defined as continuous rain and resets to zero if rainfall accumulation is less than 10 mm in a 24-hour period
+    - dailyrainin :  Rainfall since midnight (00:00)
+    - weeklyrainin :  Calendar week total and resets on Sunday morning at midnight
+    - monthlyrainin : Calendar month total and resets on the first day of the month
+    - totalrainin :  Running total since the station was last powered up
+    - battout : Battery Indicator (1 -> Battery available)
+    - tempinf : Indoor Temperature (in Farenheit)
+    - humidityin : Indoor Humidity
+    - baromrelin : Relative Barometric Pressure
+    - baromabsin : Absolute Barometric Pressure
+    - feelsLike : Outside feels like temperature (Farenheit)
+    - dewPoint : Outside Dew Point 
+    - feelsLikein : Inside feels like temperature (Farenheit)
+    - dewPointin : Inside Dew Point
+    - lastRain : Time of last rain
+- **Device Type**: Wireless Weather Station
+- **Device Manufacturer**: Ambient Weather
+- **Device Model Number**: WS-2902D
+- **Acknowledgements**: Supports from [NIST](https://www.nist.gov/), [TEEX](https://teex.org/) and [ITEC](https://itec.tamu.edu/)
