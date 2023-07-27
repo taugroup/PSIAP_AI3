@@ -1,2 +1,10 @@
-# Subscribe to a sample unknown topic
-client.subscribe("nist/psiap/ai3/unknown", qos=1)
+# Unkown Streaming Data
+
+Please follow the instructions at 
+https://github.com/taugroup/PSIAP_AI3/tree/main/Phase2/scripts
+
+and change the TOPIC to nist/psiap/ai3/unknown
+
+```
+TOPIC = "nist/psiap/ai3/unknown"
+```
