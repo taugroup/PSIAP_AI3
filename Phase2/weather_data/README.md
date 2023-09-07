@@ -3,7 +3,7 @@
 - **Title**: Weather Data
 - **Data Curator**: [TAU Group](https://taugroup.github.io/)
 - **Description**: This dataset contains weather data readings collected at the [Disaster City](https://teex.org/about-us/disaster-city/) from Mar 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
-- **Keywords**: Synthetitc Data, Weather, AI3 
+- **Keywords**: Synthetic Data, Weather, AI3 
 - **License**: Open Data Commons (ODC) licenses
 - **Version**: V1.0
 - **Date created**: April 15, 2023
@@ -11,7 +11,7 @@
 - **Data size**: 278MB (590K rows, 25 columns)
 - **Columns**:
     - dateutc : Time at which the reading was collected 
-    - tempf : Outdoor Temperature (Farenheit)
+    - tempf : Outdoor Temperature (Fahrenheit)
     - humidity : Outdoor humidity 
     - windspeedmph : Wind Speed (average wind speed in the 16-second update period) in MPH
     - windgustmph : Wind gust (peak wind speed in the 16-second update period) in MPH
@@ -26,13 +26,13 @@
     - monthlyrainin : Calendar month total and resets on the first day of the month
     - totalrainin :  Running total since the station was last powered up
     - battout : Battery Indicator (1 -> Battery available)
-    - tempinf : Indoor Temperature (in Farenheit)
+    - tempinf : Indoor Temperature (in Fahrenheit)
     - humidityin : Indoor Humidity
     - baromrelin : Relative Barometric Pressure
     - baromabsin : Absolute Barometric Pressure
-    - feelsLike : Outside feels like temperature (Farenheit)
+    - feelsLike : Outside feels like temperature (Fahrenheit)
     - dewPoint : Outside Dew Point 
-    - feelsLikein : Inside feels like temperature (Farenheit)
+    - feelsLikein : Inside feels like temperature (Fahrenheit)
     - dewPointin : Inside Dew Point
     - lastRain : Time of last rain
 - **Device Type**: Wireless Weather Station
