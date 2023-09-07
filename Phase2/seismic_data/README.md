@@ -2,7 +2,7 @@
 
 - **Title**: Seismic Data
 - **Data Curator**: [TAU Group](https://taugroup.github.io/)
-- **Description**: This dataset contains artificial data mimicing the Richter scale readings of aftershocks at [Disaster City](https://teex.org/about-us/disaster-city/) from March 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
+- **Description**: This dataset contains artificial data mimicing the Richter scale readings of aftershocks at [Disaster City](https://teex.org/about-us/disaster-city/) from Marchch 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
 - **Keywords**: Synthetic Data, Earthquake, AI3 
 - **License**: Open Data Commons (ODC) licenses
 - **Version**: V1.0

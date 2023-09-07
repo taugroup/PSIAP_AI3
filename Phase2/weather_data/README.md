@@ -2,7 +2,7 @@
 
 - **Title**: Weather Data
 - **Data Curator**: [TAU Group](https://taugroup.github.io/)
-- **Description**: This dataset contains weather data readings collected at the [Disaster City](https://teex.org/about-us/disaster-city/) from Mar 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
+- **Description**: This dataset contains weather data readings collected at the [Disaster City](https://teex.org/about-us/disaster-city/) from March 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
 - **Keywords**: Synthetic Data, Weather, AI3 
 - **License**: Open Data Commons (ODC) licenses
 - **Version**: V1.0

@@ -2,7 +2,7 @@
 
 - **Title**: Fire Alarm Data
 - **Data Curator**: [TAU Group](https://taugroup.github.io/)
-- **Description**: This dataset contains artificially generated fire alarm data. The raw data was collected at the [Disaster City](https://teex.org/about-us/disaster-city/) on Mar 10, 2023, and the synthetic data go from Mar 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
+- **Description**: This dataset contains artificially generated fire alarm data. The raw data was collected at the [Disaster City](https://teex.org/about-us/disaster-city/) on March 10, 2023, and the synthetic data go from March 10, 2023 to April 15, 2023. A report of the data generated with pandas-profiling is also available in the folder as a reference.
 - **Keywords**: Synthetic Data, Fire Alarm, AI3 
 - **License**: Open Data Commons (ODC) licenses
 - **Version**: V1.0
